@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/productos', 'ProductosController@mostrar');
 Route::post('/productos', 'ProductosController@crear');
 Route::get('/lista_productos', 'ProductosController@lista');
-Route::get('/vista/{id}', 'ProductosController@vista');
+
